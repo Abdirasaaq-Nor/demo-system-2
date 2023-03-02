@@ -35,6 +35,11 @@ body{
         .mob{
                 display: none;
         }
+        .ss {    
+                position: absolute;
+                margin-left: 150px;
+                
+        }
         
         
         
@@ -93,9 +98,17 @@ body{
                 }
 
                 .nav_{
-                        background-color: yellow;
+                       
                         width: 1150px;
+                }
+                .ss {
+                        
+                     
+                        position: absolute;
+                        margin-left: 170px;
+                        
                 }
               
         
         }
+
