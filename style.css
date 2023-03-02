@@ -35,11 +35,7 @@ body{
         .mob{
                 display: none;
         }
-        .ss {    
-                position: absolute;
-                margin-left: 150px;
-                
-        }
+      
         
         
         
@@ -67,10 +63,7 @@ body{
         flex-direction: column;
        
 }
-.nav_{
-     
-        width: 1200px;
-}
+
 
 
 
@@ -97,17 +90,6 @@ body{
                         flex-direction: column;
                 }
 
-                .nav_{
-                       
-                        width: 1150px;
-                }
-                .ss {
-                        
-                     
-                        position: absolute;
-                        margin-left: 170px;
-                        
-                }
               
         
         }
