@@ -14,10 +14,14 @@
 </head>
 <body>
 <!-- ......................................... navbar ..................... -->
-        <section class="nav_ flex justify-between bg-[#663c00]  text-white h-20" >
+        <section class="nav_ z-0 flex  justify-between bg-[#663c00]  text-white h-20" >
 <!-- ...................one . -->
                 <div class="mt-0 ml-4 flex flex-row">
-                        <button class="btn_bar"><i class="fa fa-bars"></i></button>
+                      
+                        <span class="btn_bar ">  <i class="fa fa-bars"></i></span>
+                       
+                       
+                        <!-- ................ end  -->
                         <nav class="navbar mt-4">
 
                                 
@@ -64,13 +68,31 @@
         
                 </div>
                 
+
         </section>
+        <!-- .................... when menu click this menu appear -->
+        <div class="desing_css z-0  mt-0  absolute" id="open">
+            <nav class=" mt-4">
+
+                
+                <ul class="flex flex-col">
+                       
+                        <li><a class="px-4 tex-white hover:text-gray-500 " href="#">Home</a></li>
+                        <li><a class="px-4 tex-white hover:text-gray-500 " href="#">About</a></li>
+                        <li><a class="px-4 tex-white hover:text-gray-500 " href="#">Talk</a></li>
+                        <li><a class="px-4 tex-white hover:text-gray-500 " href="#">about</a></li>
+                        <li><a class="px-4 tex-white hover:text-gray-500 " href="#">Home</a></li>
+                        <li class="mob"><a class="px-2" href="#">Demo company</a></li>
+                      
+                </ul>
+        </nav>
+        </div>
 
 
         <!-- .................................................section 2 second navbar ............................. -->
 
-        <section class="border-b-2 border-gray-100 py-2">
-                <div class="flex flex-row justify-between mr-10">
+        <section class="invoice -z-50 top-28 border-b-2 border-gray-100 py-2">
+                <div class="flex flex-row justify-between mr-10 ssdd">
                         <div class="mt-2 ml-10">
                                 <h1 class="h_1 text-2xl text-gray-400 hover:text-gray-300 cursor-pointer">Invoices</h1>
                         </div>
@@ -88,7 +110,7 @@
 
         <!-- ....................................section 3....................... -->
 
-        <section class="mt-4 ">
+        <section class="mt-44 -z-50 ">
                 <div >
                         <div class="float-left ml-10 flex flex-row">
 
@@ -108,6 +130,7 @@
                                         <div class="flex flex-row px-2 md:px-4 text-gray-500">
                                                 <span class="px-2"><i class="fa fa-download"></i></span>
                                                 <h3 class="text-sm">Group By</h3>
+                                                
                                         </div>
 
 
@@ -139,6 +162,7 @@
                                 </div>
 
                         </div>
+
                 </div>
         </section>
 
@@ -147,7 +171,7 @@
 
 
         
-<div class="relative md::overflow-x-auto" id = "baroobo">
+<div class=" -z-50 md::overflow-x-auto" id = "baroobo">
         <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>

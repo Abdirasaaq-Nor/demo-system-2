@@ -1,16 +1,56 @@
+*{
+        box-sizing: border-box;
+}
+body{
+ 
+}
 .qari{
         display: none;
+}
+
+/* ......................... menu ....................... */
+#open{
+        display: none;
+        top: 18%;
+        left: -18%;
+        
+}
+.desing_css{
+        background-color: #663c00;
+        height: 320px;
+        border-radius: 10px;
+       
+} 
+.desing_css nav li{
+        padding: 10px;
+}
+.desing_css nav a{
+        color: white;
+        text-decoration: none;
+        
 }
 #show_2{
         background-color: white;
         position: fixed;
         width: 200px;
-        height: 170px;
+        height: 200px;
         padding: 20px;
         border-radius: 10px;
         margin-top: 10px;
         opacity: 1;
         color: black;
+}
+.nav_{
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+}
+.invoice{
+        position: relative;
+
+}
+.ssdd{
+
 }
 
 .navbar{
@@ -23,10 +63,17 @@
 .text_{
         font-size: 10px;
 }
+
+/* ............. menu  bar icon  */
+.btn_bar{
+        display: none;
+}
+/* .............................. responsitive for mobile ............. */
 @media only screen and (max-width: 600px) {
         body{
-                scroll-behavior: smooth;
-               overflow-x: hidden;
+          
+                overflow-x: hidden;
+               
         }
         .sec_2{
                 display: grid;
@@ -34,6 +81,14 @@
         }
         .mob{
                 display: none;
+        }
+      
+        .btn_bar{
+                display: block;
+                 margin-top: 20px;
+                 font-size: 25px;
+                 cursor: pointer;
+                
         }
       
         
@@ -67,10 +122,25 @@
 #baroobo{
         width: 400px;
         height: 80%;
-        overflow: auto;
-        white-space: nowrap;
+   
+        overflow-x: scroll;
+        background-color: green;
        
 }
+
+#open{
+        display: none;
+        top: 18%;
+        left: -2%;
+        
+}
+.desing_css{
+        background-color: #663c00;
+        height: 320px;
+        width: 160px;
+        border-radius: 10px;
+       
+} 
 
 
 
@@ -98,6 +168,12 @@
                         flex-direction: column;
                 }
 
+                .btn_bar{
+                        display: block;
+                        margin-top: 20px;
+                        font-size: 25px;
+                        cursor: pointer;
+                }
               
         
         }
